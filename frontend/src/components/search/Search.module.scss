@@ -1,0 +1,25 @@
+.Search {
+    position: relative;
+}
+
+.Search__info {
+    position: absolute;
+    
+    width: 100%;
+    top: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.Search__link {
+    color: aliceblue;
+
+    &:hover {
+        color: green;
+    }
+}
+

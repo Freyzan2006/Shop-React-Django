@@ -1,0 +1,24 @@
+.menu__link {
+    color: aliceblue;
+    opacity: 0.5;
+
+    &:hover {
+        color: aliceblue;
+        opacity: 1;
+    }
+
+    &:focus {
+        color: aliceblue;
+        opacity: 1;
+    }
+
+    & .active {
+        color: aliceblue;
+        opacity: 1;
+    }
+}
+
+.nav-item a.active {
+    color: aliceblue;
+    opacity: 1;
+}
